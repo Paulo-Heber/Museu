@@ -1,0 +1,44 @@
+
+main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+    .museu {
+        background-color: #e5e5e5;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px 0;
+        display: flex;
+        gap: 1.25rem;
+        
+    }
+
+    .quadro {
+        align-items: flex-end;
+        height: 26.93945rem;
+        width: 20.9375rem;
+        display: flex;
+    }
+
+    .quadro img {
+        border-radius: 1rem;
+    }
+
+    .obra-altor {
+        margin: 0 0 2.689375rem 1.625rem;
+        font-family: 'Public Sans';
+        position: absolute;
+        color: #FFFFFF;
+    }
+
+    .obra-altor h2 {
+        font-weight: 700;
+    }
+
+    .obra-altor p {
+        font-weight: 300;
+    }
+
+}
